@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "App.Cinemas",
+  "short_name": "App.Cinemas",
+  "version": "tk.arturmuniz.randomword",
+  "description": "Um aplicativo para a materia INE5612.",
+  "author": "Artur Muniz E Lucas Peter",
+  "icons": [],
+  "start_url": "index.html"
+}
