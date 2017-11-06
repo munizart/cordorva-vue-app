@@ -24,6 +24,8 @@ export default {
 }
 </script>
 
+<style src="./../css/font-awesome.min.css"></style>
+<style src="./../css/milligram.min.css"></style>
 <style scoped>
     nav {
         display: block;
