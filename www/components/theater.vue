@@ -1,10 +1,10 @@
 <template>
   <div class="theater">
-      <h4>{{title}}</h4>
-      <img v-bind:src="mapThumb" alt="map thumbnail"></img>
-      <a v-bind:href="href">{{address}}</a>
+      <h4>{{name}}</h4>
+      <img :src="mapThumb" alt="map thumbnail"></img>
+      <a :href="href">{{address}}</a>
       <p>
-          <i class="fa fa-star" aria-hidden="true"></i> <span class="fav-number">{{favs}}</span>
+          Favoritos: {{favs}}</span>
       </p>
   </div>
 </template>

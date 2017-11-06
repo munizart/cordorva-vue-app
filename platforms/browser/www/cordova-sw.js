@@ -18,7 +18,7 @@ under the License.
 */
 
 // Note, these will be updated automatically at build time
-var CACHE_VERSION = '1509985961711';
+var CACHE_VERSION = '1510007534067';
 var CACHE_LIST = [
     "/components/App.vue",
     "/components/theater.vue",
@@ -26,16 +26,12 @@ var CACHE_LIST = [
     "/cordova-sw.js",
     "/cordova.js",
     "/cordova_plugins.js",
-    "/css/font-awesome.min.css",
     "/css/index.css",
     "/css/milligram.min.css",
     "/favicon.ico",
-    "/fonts/FontAwesome.otf",
-    "/fonts/fontawesome-webfont.eot",
-    "/fonts/fontawesome-webfont.svg",
-    "/fonts/fontawesome-webfont.ttf",
-    "/fonts/fontawesome-webfont.woff",
-    "/fonts/fontawesome-webfont.woff2",
+    "/img/branca.jpg",
+    "/img/clube.jpg",
+    "/img/killbill.jpg",
     "/img/logo.png",
     "/index.html",
     "/js/bundle.js",
