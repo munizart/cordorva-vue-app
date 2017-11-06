@@ -4,22 +4,18 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <name>Random Words</name>
+    <name>App.Cinemas</name>
     <description>
-        A simple random word generator.
+        Um aplicativo para a materia INE5612.
     </description>
-    <author email="arturmunizjr+apps@gmail.com" href="http://arturmuniz.tk">
-        Artur Muniz
+    <author email="aoijdoiasj@gmail.com" href="http://arturmuniz.tk">
+        Artur Muniz E Lucas Peter
     </author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <hook src="scripts/vueify-build.js" type="before_compile" />
-    <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
 </widget>

@@ -1,10 +1,10 @@
 <template>
   <div class="theater">
       <h4>{{title}}</h4>
-      <img src="{{mapThumb}}" alt="map thumbnail"></img>
-      <a href="geo:{{latitude}},{{longitude}}">{{address}}</a>
+      <img v-bind:src="mapThumb" alt="map thumbnail"></img>
+      <a v-bind:href="href">{{address}}</a>
       <p>
-          <i class="fav-icon"></i><span class="fav-number">{{favs}}</span>
+          <i class="fa fa-star" aria-hidden="true"></i> <span class="fav-number">{{favs}}</span>
       </p>
   </div>
 </template>
@@ -13,16 +13,18 @@
 export default {
     data() {
         return {
-            latitude: "-27.599868",
-            longitude: "-48.508576",
+            href: 'geo:-27.599868,-48.508576',
+            latitude: "",
+            longitude: "",
             mapThumb: '/img/logo.png',
             address: 'teste',
-            fav: 5
+            favs: 5,
+            title: "Cinema de teste"
         }
     }
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>

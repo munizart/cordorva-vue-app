@@ -18,31 +18,8 @@ under the License.
 */
 
 // Note, these will be updated automatically at build time
-var CACHE_VERSION = '1509849616133';
-var CACHE_LIST = [
-    "/components/App.vue",
-    "/components/theater.vue",
-    "/config.xml",
-    "/cordova-sw.js",
-    "/cordova.js",
-    "/cordova_plugins.js",
-    "/css/font-awesome.min.css",
-    "/css/index.css",
-    "/css/milligram.min.css",
-    "/favicon.ico",
-    "/fonts/FontAwesome.otf",
-    "/fonts/fontawesome-webfont.eot",
-    "/fonts/fontawesome-webfont.svg",
-    "/fonts/fontawesome-webfont.ttf",
-    "/fonts/fontawesome-webfont.woff",
-    "/fonts/fontawesome-webfont.woff2",
-    "/img/logo.png",
-    "/index.html",
-    "/js/bundle.js",
-    "/js/index.js",
-    "/js/main.js",
-    "/manifest.json"
-];
+var CACHE_VERSION = '%CACHE_VERSION%';
+var CACHE_LIST = ['CACHE_VALUES'];
 
 this.addEventListener('install', function (event) {
     // Perform install steps

@@ -1,14 +1,10 @@
 var Vue = require('vue/dist/vue.js');
-var VueResource = require('vue-resource');
-var RandomWord = require('../components/random-word.vue');
-var Theater =  require('../components/theater.vue');
+var router = require('vue-router')
+var App = require('./../components/App.vue')
 
-Vue.use(VueResource);
-
-var vm = new Vue({
+var vueApp = new Vue({
   el: '#app',
   components: {
-    'random-word': RandomWord,
-    'theater': Theater
+    'app': App
   }
 });
